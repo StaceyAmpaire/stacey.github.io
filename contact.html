@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <title>Personal Website</title>
+    </head>
+    <body>
+        <p><b>My Contact Info</b></p>
+            <p>Telephone Number1:+256 704273240</p>
+            <p>Telephone Number2: +256 774225249</p>
+            <p>E-mail: staceyampaire3@gmail.com</p>
+            <h1><em>Feedback Forum</em></h1>
+            <form action="mailto:staceyampaire3@gmail.com" method="post">
+                <fieldset>
+                    <legend>Is this your first time?</legend>
+                    <label for="yes_comment">No</label>
+                    <input type="radio" name="yes_comment" value="no">
+                    <label for="yes_comment">Yes</label>
+                    <input type="radio" name="yes_comment" value="yes">
+                </fieldset><br>
+                <fieldset>
+                    <legend>What do you think of this page?</legend>
+                    <select>
+                        <option value="😊amazing">😊amazing"</option>
+                        <option value="🙂good">🙂good</option>
+                        <option value="😐neutral">😐neutral</option>
+                        <option value="☹bad">☹bad</option>
+                
+                    </select>
+                </fieldset><br>
+                <fieldset>
+                    <legend>What topics do you like reading about?</legend>
+                    <label for="health_comment">Health</label>
+                    <input type="checkbox" name="health_comment" value="yes">
+                    <label for="spirituality_comment">Spirituality</label>
+                    <input type="checkbox" name="spirituality_comment" value="no">
+                    <label for="food_comment">Food</label>
+                    <input type="checkbox" name="food_comment" value="food">
+                    <label for="music_comment">Music</label>
+                    <input type="checkbox" name="music_comment" value="music">
+                    <label for="others_comment">Others</label>
+                    <input type="checkbox" name="others_comment" value="others">
+                </fieldset><br>
+                <fieldset>
+                    <label class="required" for="name">Your name:</label><br>
+                    <input id="name" class="input" name="name" type="text" value="" size="30" placeholder="Ampaire Stacey" ><br >              
+                    <label class="required" for="email">Your email:</label><br >
+                    <input id="email" class="input" name="email" type="email" value="" size="30" ><br ><br>
+                    <label class="required" for="date">Date of birth</label>
+                    <input class= "required" type="email" name="date" id="date"><br>
+                    <label class="required" for="message">Your message:</label><br >
+                    <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Write your message here"></textarea><br >
+                    <input id="submit_button" type="submit" value="Send email">
+            
+                </fieldset><br>
+            </form>
+            <footer>Stacey</footer>
+        
+    </body>
+</html>
